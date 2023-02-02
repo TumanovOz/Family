@@ -14,6 +14,7 @@ h1 {
   padding-top: 34px;
   font-weight: 600;
   color: #383838;
+  /*box-shadow: 0 0 0 2px #e2debe, 2px 2px 8px 8px #ffffff;*/
 }
 h2 {
     padding: 40px 40px; /*отступ вложенного текста от рамки */
@@ -21,7 +22,7 @@ h2 {
     font-size: 36px; /* размер шрифта */
     border: 0px dashed #e3c3d4; /* размер, форма и цвет рамки */
     /* border-radius: 10px;*/ /*  радиус скругления углов рамки */
-    box-shadow: 0 0 0 2px #e2debe, 2px 4px 8px 8px #ffffff; /* смещение, размер и цвет тени рамки*/
+    box-shadow: 0 0 0 2px #e2debe, 2px 2px 8px 8px #ffffff; /* смещение, размер и цвет тени рамки*/
     color: #fff;
     font-family: 'Lato', sans-serif;
     font-style: italic;
@@ -52,8 +53,9 @@ h5 {
     color: #49152c;
     padding: 30px 50px;
     font-family: 'Lato', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
+    box-shadow: 0 0 0 2px #e2debe, 2px 2px 8px 8px #ffffff;
 }
 
 h6 {
@@ -61,7 +63,7 @@ h6 {
 }
 
 img {
-  width: 700px;
+  width: 400px;
   margin-bottom: 25px;
   border-radius: 25px;
   margin-top: 18px;
@@ -71,17 +73,41 @@ p {
   font-size: 20px;
   font-family: 'Inter', sans-serif;
   /*color: #000;*/
-  padding: 30px 50px;
+  padding: 20px 20px;
 
 
     text-align: center;
 
 }
 div {
-    background-color: #808080;
+    background-color: #9a5ca3;
     /*width: ;
   height: ;*/
     text-align: center;
     margin: auto;
-    background-size: cover;
+    /*background-size: 20cm;*/
+    /*box-shadow: 0 0 0 2px #e2debe, 2px 2px 8px 8px #ffffff;*/
 }
+
+.font-vira {
+  font-size: 40px;
+  
+}
+
+.card {
+  background-size: 20%;
+  margin-bottom: 20px;
+  padding: 45px 45px 70px;
+  display: inline-block;
+  margin-right: 20px;
+  box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);
+
+}
+
+.right {
+  margin-right: 0;
+}
+
+/*a {
+  font-size: 40px;
+}*/
