@@ -49,14 +49,13 @@ h4 {
 }
 
 h5 {
-    background-color: #D3D3D3;
-    /*border-left: 10px solid #FF0000;*/ /*С лева какая-то не понятная полоса*/
-    color: #49152c;
-    padding: 30px 50px;
-    font-family: 'Lato', sans-serif;
-    font-size: 28px;
-    text-align: center;
-    box-shadow: 0 0 0 2px #e2debe, 2px 2px 8px 8px #ffffff;
+  background: linear-gradient(135deg, #f4e3f0 50%, #e2debe 50%);
+  color: #49152C;
+  padding: 30px 50px;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  /*text-transform: uppercase;*/
 }
 
 h6 {
